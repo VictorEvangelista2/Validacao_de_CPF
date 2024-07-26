@@ -2,7 +2,8 @@
 
 # Introdução 
 
-### Desenvolver uma aplicação web simples utilizando JavaScript para validar a formatação e a integridade de números de CPF e endereços de email inseridos pelo usuário.
+### Desenvolver uma aplicação web simples utilizando JavaScript para validar a formatação e a integridade de números de CPF e endereços de email inseridos pelo usuário. 
+### Também Definir detalhadamente as regras de validação para CPF e email, considerando os padrões de formato de email, Essas regras para validação será apresentadas futuramente nos capítulos deste arquivo README.
 
 # Desenvolvimento 
 
