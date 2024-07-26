@@ -13,7 +13,7 @@
 # Recursos JS utilizados no projeto ChecarEmail
 
 ### A função checarEmail() tem como objetivo validar se um endereço de email inserido em um formulário HTML é válido. Ela verifica a presença do símbolo "@" e de pelo menos um ponto "." no endereço de email.
- - ![Screenshot_20240726-072144](https://github.com/user-attachments/assets/1cbef852-a31a-45fd-b2c8-f95d173583f2)
+![Screenshot_20240726-072144](https://github.com/user-attachments/assets/1cbef852-a31a-45fd-b2c8-f95d173583f2)
 
  - **Verificação de Campo Vazio:** document.forms[0].email.value == "": Verifica se o campo de email está vazio. Se estiver, a função retorna false, indicando que o email não é válido.
  - **Verificação da Presença do "@":** document.forms[0].email.value.indexOf('@') == -1: Verifica se o símbolo "@" não está presente no endereço de email. Se não estiver, a função retorna false.
