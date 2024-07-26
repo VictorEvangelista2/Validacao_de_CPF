@@ -10,6 +10,7 @@
 ### Mensagens de erro personalizadas: Exibe mensagens claras e concisas para cada tipo de erro, facilitando a compreensão do usuário.
 ### O código desenvolvido pode ser adaptado e reutilizado em outros projetos, agilizando o desenvolvimento.
 
-# Recursos JS utilizados 
+# Recursos JS utilizados no projeto ChecarEmail
 
-### 
+### A função checarEmail() tem como objetivo validar se um endereço de email inserido em um formulário HTML é válido. Ela verifica a presença do símbolo "@" e de pelo menos um ponto "." no endereço de email.
+ - 
