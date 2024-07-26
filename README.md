@@ -33,7 +33,9 @@
  - Chamar uma função de validação: O código chama uma função externa validarCPF para realizar a lógica de validação do CPF.
  - A função validarCPF tem como principal objetivo verificar se um número de CPF (Cadastro de Pessoas Físicas) fornecido como parâmetro é válido de acordo com as regras de validação do CPF brasileiro.
 
-![Screenshot_20240726-075124](https://github.com/user-attachments/assets/acd47ac7-1092-4887-9dd4-54a63f700609)
+![Screenshot_20240726-075124~2](https://github.com/user-attachments/assets/e4269826-9bf2-4b21-bfad-2349efb66090)
+
+
 
 - **Remoção de Caracteres Não Numéricos:**
     cpf = cpf.replace(/[^\d]+/g, '');: Essa linha remove qualquer caractere que não seja um dígito do número de CPF, garantindo que apenas números sejam utilizados na validação.
@@ -46,4 +48,9 @@
    * O resto da divisão dessa soma por 11 é calculado.
    * Se o resto for 10 ou 11, ele é substituído por 0.
    * O resultado do cálculo é comparado com o décimo dígito do CPF fornecido. Se forem diferentes, o CPF é inválido.
-   
+  - **Cálculo do Segundo Dígito Verificador:**
+   * Um processo similar ao anterior é realizado, mas agora considerando os 10 primeiros dígitos do CPF e utilizando pesos de 12 a 2.
+   * O resultado do cálculo é comparado com o décimo primeiro dígito do CPF fornecido. Se forem diferentes, o CPF é inválido.
+ * Retorno:
+   * Se todas as verificações forem aprovadas, a função retorna true, indicando que o CPF é válido.
+   * Caso contrário, retorna false, indicando que o CPF é inválido.
